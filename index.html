@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sign up</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&family=Roboto:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #00b5ddff;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="font-family: 'Grenze Gotisch', cursive;">
+      Create an Account
+    </h1>
+    <form>
+      <table>
+        <tr>
+          <td>
+            <label for="fname"> First name</label>
+            <br />
+            <input id="fname" type="text" />
+          </td>
+          <td>
+            <label for="lname"> Last name</label>
+            <br />
+            <input id="lname" type="text" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="email"> Email</label>
+            <br />
+            <input id="email" type="text" />
+          </td>
+          <td>
+            <label for="question"> Are you 13+ years old</label>
+            <input id="yes" type="radio" name="age" />
+            <label for="yes">Yes</label>
+            <input id="no" type="radio" name="age" />
+            <label for="no">No</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" name="conditions " id="" />
+            <label for="agree"> I agree to the terms & conditions</label>
+          </td>
+          <td>
+            <input
+              style="
+                color: white;
+                background-color: #f9cb07ff;
+                border: none;
+                border-radius: 30px;
+                height: 30px;
+                width: 100px;
+              "
+              type="submit"
+              value="Submit"
+            />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
